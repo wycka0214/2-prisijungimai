@@ -1,25 +1,71 @@
 body {
 background-color: "#ffffff";
-display: inline-block;
-width: 800px;
-margin-left: calc(50% - 400px);
-background-color: aquamarine;
+
+
 
 }
-   body > div {
+  .container {
     display: inline-block;
-    background-color: blueviolet;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: calc(50% - 400px);
 
 }
-        img {
+        .left {
             display: inline-block;
             width: 50%;
             float: left;
-            background-color: chartreuse;
+            
 }
-        div > div {
+        .right {   
             display: inline-block;
             width: 40%;
             float: right;
-            background-color: darkorange;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
 }
+
+        }
+            
+        .form {
+
+        }
+
+           .form-bottom {
+
+           }
+            .form-row {
+
+            }
+                .main-title {
+
+                }
+
+
+
+
+
+
+
+
+
+/*melynas*/
+.melyna {
+    background-color: blue;
+}
+
+
+/*raudonas*/
+.raudona {
+    background-color: red;
+}
+
+.baltas-tekstas {
+    color: #ffffff;
+}
+
+
+
+
+
+
