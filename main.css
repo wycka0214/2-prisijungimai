@@ -1,0 +1,25 @@
+body {
+background-color: "#ffffff";
+display: inline-block;
+width: 800px;
+margin-left: calc(50% - 400px);
+background-color: aquamarine;
+
+}
+   body > div {
+    display: inline-block;
+    background-color: blueviolet;
+
+}
+        img {
+            display: inline-block;
+            width: 50%;
+            float: left;
+            background-color: chartreuse;
+}
+        div > div {
+            display: inline-block;
+            width: 40%;
+            float: right;
+            background-color: darkorange;
+}
