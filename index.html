@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prisijungimai</title>
-    <!-- favicon -->
+    <title>Prisijingimai</title>
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="container"> 
-        <img class="left" src="./img/login-image.png" alt="telefonas ir mergina">
+    <div class="container">
+        <img class="left" src="./img/login-image.png" alt="Telefonas ir mergina">
         <div class="right">
             <form class="form">
-            <fieldset>
                 <div class="form-row">
-                    <h1 class="main title">Login</h1>
-                </div class="form-row">
-                <div>
-                    Email
-                </div class="form-row">
-                <div>
-                    password
-                </div class="form-row">
-                <div>
-                    remember me + forgot password
+                    <h1 class="main-title">Login</h1>
                 </div>
                 <div class="form-row">
-                    BTN Singn in
-                </div>                
-            </fieldset>
-        </div>
-
-         </form>
-         <div class="form-bottom">
-             visa kita
+                    <label class="label" for="">Your email <span class="required">*</span></label>
+                    <input class="input" type="email" placeholder="Email">
+                
+                </div>
+                <div class="form-row">
+                    <label class="label" for="">Password <span class="required">*</span></label>
+                    <input class="input" type="password" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <input class="checkbox" type="checkbox">
+                    <label class="checkbox-label">Remember me</label>
+                    <a class="forgot-link" href="#">Forgot password?</a>
+                </div>
+                <div class="form-row">
+                    <div class="btn">Sign in</div>
+                </div>
+            </form>
+            <div class="form-bottom">
+              <div>VISA KITA</div>  
             </div>
-
+        </div>
     </div>
 </body>
 </html>
