@@ -1,0 +1,24 @@
+.top-home {
+    width: 36px;
+    height: 36px;
+}
+    .top-home:hover > svg { 
+        stroke: #fff;               
+        background-color: #2F55D4;
+        border-color: #2F55D4;
+    }
+    .svg {
+         transition: all 0.3s;
+         stroke: #2F55D4;
+         stroke-width:2.5;
+         overflow: hidden;
+         position: absolute;
+         top: 4%;
+         right: 2%;
+         background-color: #D5DDF6;
+         border-radius: 5px;
+         border: 1px solid #93aaf0c7;
+         cursor: pointer;
+         box-shadow: 0 3px 6px #87a0f5;
+         padding: 8px 1px 3px 5px;
+    }

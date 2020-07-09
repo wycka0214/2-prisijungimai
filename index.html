@@ -5,13 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prisijingimai</title>
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
+    
+    <!-- reset / suvienodinimas -->
     <link rel="stylesheet" href="./css/reset.css">
+    <!-- 3-rd party css -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/homebtn.css">
+    <!-- pavieniai komponentai -->
     <link rel="stylesheet" href="./css/button.css">
+    <!-- pagrindinis projekto stilius -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <a class="top-home" href="http://www.shreethemes.in/landrick/layouts/index.html">
+        <svg class="svg" width="36" height="36" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+     </a>
     <div class="container">
-        <img class="left" src="./img/login-image.png" alt="Telefonas ir mergina">
         <div class="right">
             <form class="form">
                 <div class="form-row">
@@ -19,11 +31,13 @@
                 </div>
                 <div class="form-row">
                     <label class="label" for="">Your email <span class="required">*</span></label>
-                    <input  class="input" type="email" placeholder="Email">
+                    <input class="input" type="email" placeholder="Email" required>
+                    <i class="fa fa-user-o"></i>
                 </div>
                 <div class="form-row">
                     <label class="label" for="">Password <span class="required">*</span></label>
-                    <input class="input" type="password" placeholder="Password">
+                    <input class="input" type="password" placeholder="Password" required>
+                    <i class="fa fa-key"></i>
                 </div>
                 <div class="form-row">
                     <input class="checkbox" type="checkbox">
@@ -31,13 +45,24 @@
                     <a class="forgot-link" href="#">Forgot password?</a>
                 </div>
                 <div class="form-row">
-                    <button class="btn">Sign in</button>
+                    <div class="btn">Sign in</div>
                 </div>
             </form>
             <div class="form-bottom">
-              <div>VISA KITA</div>  
+                <p>Or login with</p>
+                <div class="icon-list">
+                    <i class="fa fa-facebook animation"></i>
+                    <i class="fa fa-github animation"></i>
+                    <i class="fa fa-twitter animation"></i>
+                    <i class="fa fa-gitlab animation"></i>
+                </div>
+                <div class="extra-link">
+                    <p>Don't have an account?</p>
+                    <a href="../16-grupe-prisijungimai/sign_up_page/index.html">Sign up</a>
+                </div>
             </div>
         </div>
+        <img class="left" src="./img/login-image.png" alt="Telefonas ir mergina">
     </div>
 </body>
 </html>
