@@ -71,12 +71,6 @@ body {
                     bottom: 8px;
                     left: 16px;
                     font-size: 20px;
-                }
-                    .checkbox {
-
-                    }
-                    .checkbox-label {
-
                     }
                     .forgot-link {
                         float: right;
@@ -118,14 +112,12 @@ body {
                     font-weight: bold;
                     color: #555;
                 }
-
 @media ( max-width: 1200px ) {
     .container {
         width: 800px;
         margin: 100px calc(50% - 400px) 0;
     }
 }
-
 @media ( max-width: 900px ) {
     .container {
         width: 600px;
@@ -141,7 +133,6 @@ body {
             margin-bottom: 50px;
         }
 }
-
 @media ( max-width: 700px ) {
     .container {
         width: 100%;

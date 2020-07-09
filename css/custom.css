@@ -1,0 +1,22 @@
+.left {
+    width: 35%;
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
+.container {
+margin: 10px 0;
+}
+    .half {
+        width: 46%;
+    }
+    #last {
+        float: right;
+    }
+.checkbox-label {
+    font-weight: bold;
+}
+.terms {
+text-decoration: none;
+color: blue;
+}

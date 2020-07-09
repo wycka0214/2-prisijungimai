@@ -4,10 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/homebtn.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/custom.css">
 </head>
 <body>
-    <div>
-        
+    <img class="left" src="../img/signup.png" alt="media & woman">
+    <a class="top-home" href="http://www.shreethemes.in/landrick/layouts/index.html">
+        <svg class="svg" width="36" height="36" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+    </a>    
+    <div class="container">
+        <div class="right">
+            <form class="form">
+                <div class="form-row">
+                    <h1 class="main-title">Signup</h1>
+                </div>
+                <div class="form-row half">
+                    <label class="label" for="">First name <span class="required">*</span></label>
+                    <input class="input" type="email" placeholder="First name" required>
+                    <i class="fa fa-user-o"></i>
+                </div>
+                <div id="last" class="form-row half ">
+                    <label class="label" for="">Last name <span class="required">*</span></label>
+                    <input class="input" type="email" placeholder="Last name" required>
+                    <i class="fa fa-user-o"></i>
+                </div>
+                <div class="form-row">
+                    <label class="label" for="">Your email<span class="required">*</span></label>
+                    <input class="input" type="password" placeholder="Email" required>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                <div class="form-row">
+                    <label class="label" for="">Password <span class="required">*</span></label>
+                    <input class="input" type="password" placeholder="Password" required>
+                    <i class="fa fa-key"></i>
+                </div>
+                <div class="form-row">
+                    <label class="label" for="">Confirm password <span class="required">*</span></label>
+                    <input class="input" type="password" placeholder="Confirm password" required>
+                    <i class="fa fa-key"></i>
+                </div>
+                <div class="form-row">
+                    <input class="checkbox" type="checkbox">
+                    <label class="checkbox-label">I Accept <a class="terms" href="#">Terms And Condition</a></label>
+                </div>
+                <div class="form-row">
+                    <div class="btn">Register</div>
+                </div>
+            </form>
+            <div class="form-bottom">
+                <p>Or Signup with</p>
+                <div class="icon-list">
+                    <i class="fa fa-facebook animation"></i>
+                    <i class="fa fa-github animation"></i>
+                    <i class="fa fa-twitter animation"></i>
+                    <i class="fa fa-gitlab animation"></i>
+                </div>
+                <div class="extra-link">
+                    <p>Already have an account?</p>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
